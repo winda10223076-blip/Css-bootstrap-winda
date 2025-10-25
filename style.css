@@ -1,0 +1,86 @@
+/* GLOBAL RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BACKGROUND GRADIENT */
+.gradient-bg {
+  background: linear-gradient(180deg, #4738d0 0%, #764ba2 100%);
+  font-family: "Poppins", sans-serif;
+  padding: 2rem;
+}
+
+/* CUSTOM CARD */
+.card-custom {
+  background: linear-gradient(135deg, #fffaf9, #ffeef3);
+  border-radius: 12px;
+  box-shadow: -5px 0px 0px rgba(23, 60, 242, 0.824);
+}
+
+.card-custom h2 {
+  color: #1e3a8a;
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  border-bottom: 3px solid #1d9bf0;
+}
+
+/* HIGHLIGHT BOX */
+.highlight-box {
+  background: linear-gradient(135deg, #d5f3f8, #fce4ec);
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: -5px 0px 0px rgba(242, 23, 23, 0.824);
+}
+
+/* EXAMPLE BOX */
+.example-box {
+  border: 1.5px dashed #0553ef;
+  background: #f9fafb;
+}
+
+.example-box ul,
+.example-box ol {
+  margin-left: 25px;
+  margin-bottom: 15px;
+}
+
+.example-box li {
+  margin-bottom: 6px;
+}
+
+/* CODE AREA */
+pre {
+  background: #1e293b;
+  color: #e2e8f0;
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  overflow-x: auto;
+}
+
+/* FORM BOX */
+.form-box {
+  border: 1.5px dashed #0553ef;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.form-box button {
+  background: #0078d4;
+  border: none;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.form-box button:hover {
+  background: #005fa3;
+}
+
+/* FOOTER */
+.footer {
+  background: linear-gradient(90deg, #6b5bff, #6ec9ff);
+}
